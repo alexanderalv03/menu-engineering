@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<br%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +8,13 @@
 <body>
     <h1>PAGINA DE TESTE DE CADASTRO</h1>
 
-    <p>Cadastre um
+    <p>Cadastre um insumo:<br></br>
+        categoria:
+        nome do insumo:
+        unidade de medida:
+        fornecedor: 
+    </p>
+
 
 
 </body>
