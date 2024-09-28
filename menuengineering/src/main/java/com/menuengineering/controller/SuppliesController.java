@@ -1,12 +1,14 @@
 package com.menuengineering.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.menuengineering.services.SuppliesService;
 
-@Controller
+
+@RestController
+@RequestMapping(value = "/supplies")
 public class SuppliesController {
     
     private final SuppliesService suppliesService;
@@ -16,10 +18,13 @@ public class SuppliesController {
         this.suppliesService = suppliesService;
     }
 
-    @GetMapping("/")
-    public String homepage(){
-        return "homepage";
-    }
+ //   @GetMapping("/")
+ //   public String homepage(){
+ //       return "homepage";
+ //   }
+
+
+    
 
 
 
